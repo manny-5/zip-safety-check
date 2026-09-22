@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/zipsafe/__init__.py
+src/zipsafe/__main__.py
+src/zipsafe/cli.py
+src/zipsafe/scanner.py
+src/zipsafe.egg-info/PKG-INFO
+src/zipsafe.egg-info/SOURCES.txt
+src/zipsafe.egg-info/dependency_links.txt
+src/zipsafe.egg-info/entry_points.txt
+src/zipsafe.egg-info/top_level.txt
+tests/test_zipsafe.py

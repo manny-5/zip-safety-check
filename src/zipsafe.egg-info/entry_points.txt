@@ -1,0 +1,2 @@
+[console_scripts]
+zipsafe = zipsafe.cli:main

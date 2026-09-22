@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zipsafe"
+version = "1.0.0"
+description = "Explainable ZIP archive safety checker"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "ZipSafe contributors"}]
+dependencies = []
+
+[project.scripts]
+zipsafe = "zipsafe.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

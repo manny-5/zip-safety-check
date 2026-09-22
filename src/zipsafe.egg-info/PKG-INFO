@@ -1,3 +1,11 @@
+Metadata-Version: 2.4
+Name: zipsafe
+Version: 1.0.0
+Summary: Explainable ZIP archive safety checker
+Author: ZipSafe contributors
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
 # ZipSafe
 
 ZipSafe is an installable, offline-first Python CLI for reviewing ZIP archives
