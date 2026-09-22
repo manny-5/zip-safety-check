@@ -1,7 +1,7 @@
 # ZipSafe
 
-ZipSafe is an installable, offline-first Python CLI for reviewing ZIP archives
-before extraction. It detects path traversal (including Windows paths),
+ZipSafe is an offline-first Python CLI for reviewing ZIP archives
+before extraction. It detects path traversal,
 symlinks, encrypted entries, executable and script members, disguised names,
 magic-byte mismatches, nested archives, and conservative archive-bomb signals.
 It never extracts during a scan.
@@ -21,7 +21,7 @@ zipsafe explain path_traversal encrypted
 zipsafe extract --no-antivirus archive.zip destination
 ```
 
-Exit codes are stable: `0` means no findings, `1` means safety findings,
+Exit codes: `0` means no findings, `1` means safety findings,
 `2` means invalid command or finding code, and `3` means an invalid archive or
 operational error. `extract` refuses every archive with a finding and is
 intended only for archives that have been reviewed.
