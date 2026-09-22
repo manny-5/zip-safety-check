@@ -1,6 +1,6 @@
 # ZipSafe
 
-ZipSafe is an offline-first Python CLI for reviewing ZIP archives
+ZipSafe is a Python CLI for reviewing ZIP archives
 before extraction. It detects path traversal,
 symlinks, encrypted entries, executable and script members, disguised names,
 magic-byte mismatches, nested archives, and conservative archive-bomb signals.
